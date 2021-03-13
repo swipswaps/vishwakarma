@@ -18,7 +18,7 @@ Vishwakarma can be used to create a Kubernetes cluster in AWS by leveraging Hash
 
 - **kubectl**: After the cluster created completely, there is a Kubernetes ConfigMap aws-auth need to be created through kubectl, so need to [**install it**](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl). **Minimum required version of Kubernetes is v1.18.0**.
 
-- **[aws-iam-authenticator](https://docs.aws.amazon.com/zh_tw/eks/latest/userguide/install-aws-iam-authenticator.html)**: The clsuter access permission integrate with AWS IAM, in order to let the cluster know whether you have the right to access, aws-iam-authenticator need to be [**installed**](https://docs.aws.amazon.com/eks/latest/userguide/configure-kubectl.html) in the client side.
+- **[aws-iam-authenticator](https://docs.aws.amazon.com/zh_tw/eks/latest/userguide/install-aws-iam-authenticator.html)**: The cluster access permission integrate with AWS IAM, in order to let the cluster know whether you have the right to access, aws-iam-authenticator need to be [**installed**](https://docs.aws.amazon.com/eks/latest/userguide/configure-kubectl.html) in the client side.
 
 - **Key Pair**: In order to access worker node through ssh protocol, please create a key pair in example region **US West (Oregon) us-west-2**.
 
